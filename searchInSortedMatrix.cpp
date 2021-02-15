@@ -27,10 +27,7 @@ int search(vector<vector<int>> matrix, int size, int key)
 }
 
 int main(){
-    vector<vector<int>> matrixrix = { {10, 20, 30, 40},
-                      {15, 25, 35, 45},
-                      {27, 29, 37, 48},
-                      {32, 33, 39, 50}};
+    vector<vector<int>> matrixrix = { {10, 20, 30, 40},{15, 25, 35, 45},{27, 29, 37, 48},{32, 33, 39, 50}};
 
     int findElement = 29;
     vector<int> result = findElement(matrixrix,findElement);
