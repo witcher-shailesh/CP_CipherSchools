@@ -1,7 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std; 
   
-//not the best approach :(
 void alternateSort(int elements[], int n) { 
     sort(elements, elements+n);  
     int i = 0, j = n-1; 
