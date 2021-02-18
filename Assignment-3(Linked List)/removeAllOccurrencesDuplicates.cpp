@@ -4,12 +4,12 @@ using namespace std;
 class ListNode{
 public:
     int data;
-    Node *next;
-    Node(){
+    ListNode *next;
+    ListNode(){
         data = 0;
         next = NULL;
     }
-    Node(int data){
+    ListNode(int data){
         this->data = data;
         this->next = NULL;
     }
