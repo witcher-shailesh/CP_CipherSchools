@@ -1,4 +1,4 @@
-//solved on gfg -> https://practice.geeksforgeeks.org/problems/circular-tour/1
+//Solved on gfg -> https://practice.geeksforgeeks.org/problems/circular-tour/1
 
 int tour(petrolPump p[],int n)
 {
