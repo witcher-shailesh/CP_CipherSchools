@@ -50,3 +50,7 @@ TreeNode* bstFromPreorder(vector<int>& preorder) {
     TreeNode *ans = bstFromPreorderHelper(preorder,inorder,0,preorder.size()-1,index);
     return ans;
 }
+
+int main(){
+    
+}
