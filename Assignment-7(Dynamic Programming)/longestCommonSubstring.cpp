@@ -10,6 +10,7 @@ int longestCommonSubstr (string S1, string S2, int n, int m)
     {
         for(int j = 0; j <= m; j++)
         {
+            if(i == 0 || j == 0)
             {
                 dp[i][j] = 0;
             }
